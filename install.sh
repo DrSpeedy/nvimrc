@@ -10,13 +10,14 @@ is_config_installed() {
     if [[ -d $CONFIG_PATH ]]; then
         echo "A NeoVim configuration is already in place!"
         while true; do
-            read -r -p "Would you like to back it up? [y/N]" yn
+            echo "Would you like to back it up? [y/N]"
+            read -r yn < /dev/tty
             case "$yn" in
                 [Yy] ) backup_previous_config
                     break
                     ;;
 
-                [Nn] ) break
+                [Nn] )	break
                     ;;
 
                 * ) echo "Please answer yes or no"
