@@ -2,7 +2,7 @@
 
 
 WORKING_DIRECTORY="/tmp"
-SYS_DEPENDENCIES="git ranger"
+SYS_DEPENDENCIES=('git' 'ranger')
 
 CONFIG_PATH="$HOME/.config/nvim"
 
