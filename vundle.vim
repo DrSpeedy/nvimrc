@@ -10,9 +10,8 @@ call vundle#begin("$HOME/.config/nvim/bundle")
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-
 " Utilities
-"Plugin 'tpope/vim-vinegar'
+Plugin 'mhinz/vim-startify'
 Plugin 'scrooloose/syntastic'
 Plugin 'ervandew/supertab'
 Plugin 'ap/vim-buftabline'

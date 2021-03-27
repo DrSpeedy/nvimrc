@@ -9,6 +9,9 @@ let mapleader=','					"set <Leader>
 
 "------------Visuals------------"
 
+" Set popup menu color
+highlight Pmenu ctermbg=gray guibg=gray
+
 " TUI true colors
 if (has("termguicolors"))
     set termguicolors
